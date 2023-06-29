@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png" />
+	<link rel="stylesheet" href="style1.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Booking form</title>
+</head>
+<body style="background:lightgray">
+ 
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+          <img src="lodgelogo.png" class="logo" width="80" height="50" alt="">
+   
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                 <ul class="navbar-nav">
+                    <li class="link-item nav-item">
+                        <a href="index.html" class="link nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FAQs.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Accom.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="branches.html">Branches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="careers.html">Careers</a>
+                    </li>
+
+                </ul>
+          </div>
+        </div>
+      </nav>
+        <!----------------------------------------------------------------------------------------------->
+            <br><h3 id="header_14" class="form-header" data-component="header" align = "center">New Avenue Lodge</h3>
+            <div id="subHeader_14" class="form-subHeader" align ="center">We're more than just a room</div>
+            
+            <form>
+    <div class="form-box" align = "center">
+      <div class="input-box">
+        <br><br><label for="name"><b>Firstname:</b></label>
+        <br><input type="text" placeholder="Enter name" name="name" id="Name" required=""><br></div>
+    
+        <div class="input-box">
+        <br><label for="surname"><b>Surname:</b></label>
+        <br><input type="text" placeholder="Enter Surname" name="surname" id="surname" required=""><br>
+        </div>
+    
+        <div class="input-box">
+        <br><label for="Contact number"><b>Contact number:</b></label>
+        <br><input type="text" placeholder="Enter contact number" name="contact number" id="contact number" required=""><br>
+        </div>
+    
+        <div class="input-box">
+          <br><label for="email"><b>Email:</b></label>
+          <br><input type="text" placeholder="Enter Email" name="email" id="email" required="">
+          </div>
+
+          <br><label for="guestnumber"><b>Room Type:</b></label>
+            <select class="form-dropdown" id="input_6" name="q6_roomType" style="width:310px" data-component="dropdown" aria-label="Room Type"><option value="">Please Select</option>
+                <option value="Premium King Room (1 to 3 People)">Premium King Room (1 to 3 People)</option>
+                <option value="Deluxe Room (1 to 5 People)">Deluxe Room (1 to 5 People)</option>
+                <option value="Double Room (1 to 2 People)">Double Room (1 to 2 People)</option>
+                <option value="Luxury Room (1 to 2 People)"> Luxury Room (1 to 2 People)</option>
+                <option value="Room with View (1 to 2 People)">Room with view (1 to 2 People)</option>
+                <option value="Single Room (1 Person)"> Single Room (1 Person)</option>
+                <option value="Family Room (6 People)">Family Room (6 People)</option></select>
+            <div class="input-box">
+                <br><label for="guestnumber"><b>Number of Guests:</b></label>
+            </div>
+            <div class="form-spinner-input-td">
+                <input type="number" id="input_18" name="q18_numberOf18" data-type="input-spinner" class="form-spinner-input form-textbox validate[required]" data-spinnermin="0" data-defaultvalue="0" value="0" data-component="spinner" aria-labelledby="label_18" required="" size="5" autocomplete="off">
+            </div>
+            <div class="input-box">
+                <br><label for="arrivaldate"><b>Arrival Date:</b></label>
+            </div>
+            <input type="date" id="date">
+            <div class="input-box">
+                <br><label for="arrivaldate"><b>Depature Date:</b></label>
+            </div>
+            <input type="date" id="date">
+            </form> 
+            <div>
+                <br><button type="submit" class="submit-btn"><b>Book</b></button><br>
+            </div>
+
+             <!--------------------------------------------------------------------------------------------------------->
+   <br><br><hr>
+   <!--usinng unordered list  -->
+
+
+   <footer>
+       <ul>
+           <li><a href="Sitemap.html">Sitemap</a></li>
+		   <li><a href="contact.html">Contact Us</a></li>
+           <li><a href="privacy.html">Privacy</a></li>
+
+       </ul>
+
+   </footer>
+
+        </body>
+</html>

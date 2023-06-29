@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.homecontainer {
+    width: 100%;
+    margin: 4px;
+    display: flex;
+}
+
+.homeitem-1 {
+    width: 50%;
+    height: 440px;
+}
+
+.homeitem-2 {
+    width: 50%;
+    height: 440px;
+}
+
+.homeitem-1 img {
+    width: 500px;
+    height: 440px;
+}
+
+.image-text {
+    display: flex;
+}
+
+.slogan {
+    rotate: -90deg;
+    text-align: center;
+    padding-top: 75px;
+    background-color: lightgray;
+    border-radius: 40px 999em;
+    width: 200px;
+    float: left;
+    margin-top: 150px;
+    padding-left: 20px;
+	font-family: satisfy;
+}
+
+.slogan h1 {
+    font-family: satisfy;
+    font: size 6px;
+}
+
+.homeconvi {
+    text-align: center;
+}
+
+
+/* ticks before lists */
+
+.hometick-text {
+    text-align: center;
+}
+
+.hometick-text ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.homelist {
+    list-style: none;
+}
+
+.homelist li:before {
+    content: '\2714\0020';
+    color: green;
+}
+
+.homeconvi h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.homeconvi p {
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-family: caveat;
+}
+
+
+
+#about-text {
+    text-align: center;
+}
+
+#about-text span {
+    color: #f9004f;
+    font-family: cursive;
+}
+
+#about-text h1 {
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+#about-text h5 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+#about-text p {
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+#about-text button {
+    background-color: #f0bdbd;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+#about-text button:hover {
+    background: transparent;
+    border: 2px solid #f0bdbd;
+    cursor: pointer;
+}
+.abrow {
+	background-color: lightgray;
+}
+  /* Create 2 equal columns that floats next to each other */
+.abcolumn {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+ 
+  /* Clear floats after the columns */
+  .abrow::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .abcolumn {
+      width: 100%;
+    }
+  }
+
+
+#border-careers a {
+    color: green;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+#border-careers h3{
+	display:flex;
+	justify-content: space-between;
+}
+/*FAQs*/
+
+/*pricing*/
+
+.priheader {
+    text-align: center;
+    padding: 32px;
+}
+
+.prirow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.pricolumn {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.pricolumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .pricolumn {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of
+    next to each other */
+@media (max-width: 600px) {
+    .pricolumn {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+/*privacy*/
+#privacy {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.terms-box {
+    max-width: 460px;
+    background-color: aliceblue;
+    font-family: "Montserrat";
+    padding: 60px 30px;
+}
+
+.terms-text {
+    padding: 0 20px;
+    height: 350px;
+    overflow-y: auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+.terms-text::-webkit-scrollbar-thumb {
+    background-color: #f9004f;
+}
+
+.terms-text h2 {
+    text-transform: uppercase;
+}
+
+.terms-box {
+    font-size: 13px;
+    text-align: center;
+    padding: 0 40px;
+}
+/**/
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+/*contact us*/
+#contact {
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+/*branch*/
+
+/* Create three equal columns that floats next to each other */
+.bracolumn {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .brarow::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .bracolumn {
+      width: 100%;
+    }
+  }
+/*footer and the hyperlinks centered */
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer {
+    height: 80px;
+    background:#212529;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.map{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
+
+.sub_map1{
+	list-style-type: circle;
+}
+
+

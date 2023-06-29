@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Form</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="icon" href="img/favicon.png" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+ body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+</style>
+
+<style>
+	<!-- /*-------------------------------------------------------------------------*/ -->
+   <!-- /*footer and the hyperlinks centered */ -->
+
+   footer ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+   }
+
+   footer {
+    height: 80px;
+    background:#212529;
+   }
+
+   footer ul li {
+    list-style: none;
+   }
+
+   footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+<!-- /*----------------------------------------------------------------------------*/ -->
+	</style>
+</head>
+<body>
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+          <img src="lodgelogo.png" class="logo" width="80" height="50" alt="">
+   
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                    <li class="link-item nav-item">
+                        <a href="index.html" class="link nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FAQs.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Accom.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="branches.html">Branches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="careers.html">Careers</a>
+                    </li>
+
+                </ul>
+          </div>
+        </div>
+      </nav>
+<h3>Contact Form</h3>
+
+<div style="border-radius: 5px;background-color: #f2f2f2;padding: 20px;">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="email">E-Mail Address</label>
+    <input type="text" id="email" name="email" placeholder="Your e-mail address..">
+
+    <label for="country">Province</label>
+    <select id="Province" name="Province">
+      <option value="gauteng">Gauteng</option>
+      <option value="Western Cape">Western Cape</option>
+      <option value="KZN">KZN</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="button" value="Submit">
+  </form>
+</div>
+
+</body>
+  <footer>
+        <ul>
+           <li><a href="Sitemap.html">Sitemap</a></li>
+		   <li><a href="contact.html">Contact Us</a></li>
+           <li><a href="privacy.html">Privacy</a></li>
+
+
+        </ul>
+
+
+
+    </footer>
+</html>
